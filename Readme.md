@@ -25,3 +25,8 @@ And your website will start up automatically in your default browser.
 
 You can then modify the `tailwind.config.js` for your own custom colors if needed
 And modify the `index.html` inside the `src` directory.
+
+## References
+
+https://github.com/rebelchris/HTML-Tailwind-Starter
+https://github.com/rebelchris/HTML-Tailwind-Starter/pull/12
