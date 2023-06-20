@@ -1,0 +1,30 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "description": "tailwind-starter is a template to use for html/css projects",
+  "main": "pages/index.html",
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "html"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss styles.css -o src/styles.css",
+    "dev": "concurrently \"npx live-server src --wait=0 --port=8080\" \"npx tailwindcss -i ./styles.css -o ./src/styles.css --watch\""
+  },
+  "author": "Faizan Arif",
+  "license": "ISC",
+  "dependencies": {
+    "postcss-cli": "^8.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "concurrently": "^7.2.2",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^3.3.2"
+  }
+}
