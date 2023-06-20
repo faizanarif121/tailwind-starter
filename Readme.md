@@ -8,12 +8,6 @@ The project uses the Tailwind purge to make the files as clean as possible.
 
 The installation is very easy run the install command.
 
-First of all you'll need to install live-server package globally, otherwise this project will not work. To install package you can run following command
-
-```bash
-npm install -g live-server
-```
-
 ```bash
 npm install
 ```
@@ -24,7 +18,7 @@ Next up we can run the dev server:
 npm run dev
 ```
 
-And your website will start up.
+And your website will start up automatically in your default browser.
 
 
 ## Modifying the project
